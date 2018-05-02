@@ -12,6 +12,7 @@ import MediaPlayer
 class ViewController: UIViewController, MPMediaPickerControllerDelegate {
 
     var player = MPMusicPlayerController.applicationMusicPlayer;
+    var clipCreateController = ClipCreateController.sharedInstance;
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,11 +44,12 @@ class ViewController: UIViewController, MPMediaPickerControllerDelegate {
     // メディアアイテムピッカーでアイテムを選択完了したときに呼び出される
     func mediaPicker(_ mediaPicker: MPMediaPickerController, didPickMediaItems mediaItemCollection: MPMediaItemCollection) {
         
-        Swift.print(mediaItemCollection.items[0].assetURL);
+        Swift.print(mediaItemCollection.items[0]);
+        clipCreateController.showMusicWaveView(musicUrl: mediaItemCollection.items[0].assetURL!);
         // 選択した曲情報がmediaItemCollectionに入っているので、これをplayerにセット。
         player.setQueue(with: mediaItemCollection)
         // 再生開始
-        player.play()
+        //player.play()
         // ピッカーを閉じ、破棄する
         self.dismiss(animated: true, completion: nil)
         

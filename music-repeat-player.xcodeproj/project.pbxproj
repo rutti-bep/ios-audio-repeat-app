@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		595E49EA209A2C3000FCD012 /* MusicSelectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595E49E9209A2C3000FCD012 /* MusicSelectController.swift */; };
+		595E49EC209A2EDF00FCD012 /* ClipCreateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595E49EB209A2EDF00FCD012 /* ClipCreateController.swift */; };
 		59DDEA6C2099F3400011E3AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DDEA6B2099F3400011E3AD /* AppDelegate.swift */; };
 		59DDEA6E2099F3400011E3AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DDEA6D2099F3400011E3AD /* ViewController.swift */; };
 		59DDEA712099F3400011E3AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59DDEA6F2099F3400011E3AD /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		595E49E9209A2C3000FCD012 /* MusicSelectController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSelectController.swift; sourceTree = "<group>"; };
+		595E49EB209A2EDF00FCD012 /* ClipCreateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipCreateController.swift; sourceTree = "<group>"; };
 		59DDEA682099F3400011E3AD /* music-repeat-player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "music-repeat-player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59DDEA6B2099F3400011E3AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59DDEA6D2099F3400011E3AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 			children = (
 				59DDEA6B2099F3400011E3AD /* AppDelegate.swift */,
 				59DDEA6D2099F3400011E3AD /* ViewController.swift */,
+				595E49E9209A2C3000FCD012 /* MusicSelectController.swift */,
+				595E49EB209A2EDF00FCD012 /* ClipCreateController.swift */,
 				59DDEA6F2099F3400011E3AD /* Main.storyboard */,
 				59DDEA722099F3400011E3AD /* Assets.xcassets */,
 				59DDEA742099F3400011E3AD /* LaunchScreen.storyboard */,
@@ -149,6 +155,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				59DDEA6E2099F3400011E3AD /* ViewController.swift in Sources */,
+				595E49EC209A2EDF00FCD012 /* ClipCreateController.swift in Sources */,
+				595E49EA209A2C3000FCD012 /* MusicSelectController.swift in Sources */,
 				59DDEA6C2099F3400011E3AD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
